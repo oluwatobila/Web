@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,4,0,0.1)), url(laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.nav{
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 7% 2px 7%;
+}
+.navbar{
+    display: flex;    
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 17px;
+}
+.navbar ul li a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: red;
+    display: block;
+    transition: .5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.logo h3{
+    color: red;
+    font-size: 30px;
+}
+.logo h3 span{
+    color: yellow;
+    font-size: 20px;
+}
+.meet{
+    margin-left: 50%;
+    margin-top: 20%;
+    font-size: 30px;
+}
+.meet h3{
+    font-size: 20px;
+    color: red;
+} 
+.meet h1{
+    color: white;
+}
+.meet h1 span{
+    color: blue;
+    margin-bottom: 10%;
+}
+.meet p{
+    color: yellow;
+    margin-bottom: 10%;
+}.start{
+    font-size: 50px;
+    height: 30vh;
+    font-weight: bold;
+    text-decoration: none;
+}
+.start .button{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    color:yellow;
+    background:rgba(0,0,0,0.733);
+    transition: all .5s ease .0s;
+}
+.start .button:hover{
+    background: goldenrod;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 4px 0px 2px #000, 3px 4px 12px;
+}
+.about{
+    width: 80%;
+    padding: 5px 2px 3px 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    max-height: 80vh;
+    margin: auto;
+}
+.imager{
+    border-radius: 50%;
+    width: 40%;
+    height: 50vh;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.about-us{
+    /* width: 10px; */
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.about-us h1{
+    width: 50%;
+    color: goldenrod;
+    font-size: 40px;
+    border: 1px solid transparent;
+    text-shadow: 2px 5px 0px #000, 3px 4px 12px;
+}
+.about-us p{
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+}
+.about .cta{
+    width: 70px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    color:yellow;
+    background:rgba(0,0,0,0.733);
+    transition: all .5s ease .0s;
+}
+.about .cta:hover{
+    background: goldenrod;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 4px 0px 2px #000, 3px 4px 12px;
+}
+.services{
+    margin-top: 30%;
+    width: 90%;
+}
+.services h1{
+    width: 50%;
+    color: goldenrod;
+    font-size: 40px;
+    border: 1px solid transparent;
+    text-shadow: 2px 5px 0px #000, 3px 4px 12px;
+    margin-left: 50%;
+}
+.serv{
+    display: inline-block;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    width: 23%;
+    background-color: grey;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    height: 60vh;
+}
+.serv .Read{
+    width: 70px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    color:yellow;
+    background:rgba(0,0,0,0.733);
+    transition: all .5s ease .0s;
+}
+.serv .Read:hover{
+    background: goldenrod;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 4px 0px 2px #000, 3px 4px 12px;
+}
+.Hire{
+    display: inline-block;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    width: 30%;
+    background-color: yellow;
+    border-radius: 25px;
+    font-size: 10px;
+    margin-top: 10%;
+    margin-left: 35%;
+    height: 10vh;
+}
+.Hire h2{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+.Hire .Me{
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+    border-radius: 10px;
+    color:yellow;
+    background:rgba(0,0,0,0.733);
+    transition: all .5s ease .0s;
+}
+.Hire .Me:hover{
+    background: goldenrod;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 4px 0px 2px #000, 3px 4px 12px;
+}
+.footer{
+    background: grey;
+}
+.foot{
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    color: blue;
+    font-size: 25px;
+}
